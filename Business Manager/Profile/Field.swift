@@ -9,16 +9,16 @@
 import Foundation
 import UIKit
 
-struct Field
+class Field
 {
-    let profileName: String
-    let firstName: String
-    let lastName: String
-    let company: String
-    let phone: String
-    let email: String
-    let website: String
-    let address: String
-    let birthday: String
-    let profileImage: UIImage
+    var profileName: String = ""
+    var firstName: String = ""
+    var lastName: String = ""
+    var company: String = ""
+    var phone: String = ""
+    var email: String = ""
+    var website: String = ""
+    var address: String = ""
+    var birthday: String = ""
+    var profileImage: UIImage = UIImage(named: "Default Picture")!
 }

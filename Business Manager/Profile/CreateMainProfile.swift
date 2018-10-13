@@ -9,8 +9,7 @@
 import UIKit
 
 class CreateMainProfile: UIViewController {
-
-    @IBOutlet weak var inputViews: UIStackView!
+    
     @IBOutlet weak var firstName: UITextField!
     @IBOutlet weak var lastName: UITextField!
     @IBOutlet weak var company: UITextField!
@@ -26,21 +25,14 @@ class CreateMainProfile: UIViewController {
         
     }
     
-    @IBAction func doneButtonPressed(_ sender: Any) {
-        let profile: Field = Field(profileName: "", firstName: firstName.text!, lastName: lastName.text!, company: company.text!, phone: phone.text!, email: email.text!, website: website.text!, address: address.text!, birthday: birthday.text!, profileImage: UIImage(named: "") ?? UIImage(named: "Default Picture")!)
+    @IBAction func doneBtnPressed(_ sender: Any)
+    {
+        let profile: Field = Field()
+                profile.firstName = firstName.text!
+                profile.lastName = lastName.text!
+                profile.address = address.text!
         
-        DataService.instance.createMainProfile(profile: profile)
-        
+        DataService.instance.createMainProfile(firstName: profile.firstName, lastName: profile.lastName, address: profile.address)
+                //print(DataService.instance.mainProfile)
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

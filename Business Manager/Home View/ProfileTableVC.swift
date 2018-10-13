@@ -12,7 +12,7 @@ class ProfileTableVC: UITableViewController
 {
     
     let profiles = DataService.instance.getProfiles()
-    var selectedProfile = Field(profileName: "", firstName: "", lastName: "", company: "", phone: "", email: "", website: "", address: "", birthday: "", profileImage: UIImage(named: "") ?? UIImage(named: "Default Picture")!)
+    var selectedProfile = Field()
     
     override func viewDidLoad()
     {

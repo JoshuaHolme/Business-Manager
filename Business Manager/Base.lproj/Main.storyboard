@@ -57,7 +57,6 @@
         <!--ProfileVC-->
         <scene sceneID="rLq-1S-RIB">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qot-23-7gD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="pLL-lE-vfL" customClass="ProfileVC" customModule="Business_Manager" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cpa-RJ-MVY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -142,6 +141,7 @@
                         <outlet property="ProfilePicture" destination="p6Z-1W-YMz" id="qtz-Bg-T1r"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qot-23-7gD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3210" y="21"/>
         </scene>
@@ -153,73 +153,73 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="oeb-Rf-PxN">
-                                <rect key="frame" x="8" y="148" width="359" height="551"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="2Ne-jg-fW9">
+                                <rect key="frame" x="8" y="140" width="359" height="569"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d0R-3f-mZk">
-                                        <rect key="frame" x="0.0" y="0.0" width="359" height="40.666666666666664"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Company" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6wn-h2-FEU">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="44.666666666666664"/>
                                         <color key="backgroundColor" red="0.85523938730000004" green="0.85523938730000004" blue="0.85523938730000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t0I-S7-cyO">
-                                        <rect key="frame" x="0.0" y="63.666666666666657" width="359" height="41"/>
-                                        <color key="backgroundColor" red="0.85523938730000004" green="0.85523938730000004" blue="0.85523938730000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Company" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6wn-h2-FEU">
-                                        <rect key="frame" x="0.0" y="127.6666666666667" width="359" height="40.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="65.666666666666657" width="359" height="44.333333333333343"/>
                                         <color key="backgroundColor" red="0.85523938730000004" green="0.85523938730000004" blue="0.85523938730000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wuR-ZA-F29">
-                                        <rect key="frame" x="0.0" y="191.33333333333331" width="359" height="40.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="131" width="359" height="44.666666666666657"/>
                                         <color key="backgroundColor" red="0.85523938730000004" green="0.85523938730000004" blue="0.85523938730000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WHm-SH-fn1">
-                                        <rect key="frame" x="0.0" y="255" width="359" height="41"/>
+                                        <rect key="frame" x="0.0" y="196.66666666666669" width="359" height="44.666666666666657"/>
+                                        <color key="backgroundColor" red="0.85523938730000004" green="0.85523938730000004" blue="0.85523938730000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d0R-3f-mZk">
+                                        <rect key="frame" x="0.0" y="262.33333333333331" width="359" height="44.333333333333314"/>
                                         <color key="backgroundColor" red="0.85523938730000004" green="0.85523938730000004" blue="0.85523938730000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Website" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Jo-Xk-H38">
-                                        <rect key="frame" x="0.0" y="319" width="359" height="40.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="327.66666666666669" width="359" height="44.666666666666686"/>
                                         <color key="backgroundColor" red="0.85523938730000004" green="0.85523938730000004" blue="0.85523938730000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="46z-MK-oSJ">
-                                        <rect key="frame" x="0.0" y="382.66666666666663" width="359" height="40.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="393.33333333333337" width="359" height="44.666666666666686"/>
                                         <color key="backgroundColor" red="0.85523938730000004" green="0.85523938730000004" blue="0.85523938730000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Brithday" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zAk-r8-YCa">
-                                        <rect key="frame" x="0.0" y="446.33333333333337" width="359" height="41"/>
+                                        <rect key="frame" x="0.0" y="459" width="359" height="44.333333333333314"/>
                                         <color key="backgroundColor" red="0.85523938730000004" green="0.85523938730000004" blue="0.85523938730000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4E-ag-AgI">
-                                        <rect key="frame" x="0.0" y="510.33333333333343" width="359" height="40.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="524.33333333333337" width="359" height="44.666666666666629"/>
                                         <color key="backgroundColor" red="0.42448996560000002" green="0.66666668650000005" blue="0.3336107841" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Done">
                                             <color key="titleColor" red="0.85523938730000004" green="0.85523938730000004" blue="0.85523938730000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <action selector="doneButtonPressed:" destination="7VP-a8-oFP" eventType="touchUpInside" id="a6G-8n-Y0W"/>
+                                            <action selector="doneBtnPressed:" destination="7VP-a8-oFP" eventType="touchUpInside" id="Vas-OR-BvS"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -227,10 +227,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="xLf-qm-klO" firstAttribute="bottom" secondItem="oeb-Rf-PxN" secondAttribute="bottom" constant="30" id="Klk-10-skx"/>
-                            <constraint firstItem="xLf-qm-klO" firstAttribute="trailing" secondItem="oeb-Rf-PxN" secondAttribute="trailing" constant="8" id="RNY-ap-gY8"/>
-                            <constraint firstItem="oeb-Rf-PxN" firstAttribute="leading" secondItem="xLf-qm-klO" secondAttribute="leading" constant="8" id="ccl-Ws-0yU"/>
-                            <constraint firstItem="oeb-Rf-PxN" firstAttribute="top" secondItem="xLf-qm-klO" secondAttribute="top" constant="8" id="dUV-Ti-aJp"/>
+                            <constraint firstItem="2Ne-jg-fW9" firstAttribute="top" secondItem="xLf-qm-klO" secondAttribute="top" id="Bgi-kE-JHJ"/>
+                            <constraint firstItem="xLf-qm-klO" firstAttribute="trailing" secondItem="2Ne-jg-fW9" secondAttribute="trailing" constant="8" id="MqN-lz-ck2"/>
+                            <constraint firstItem="xLf-qm-klO" firstAttribute="bottom" secondItem="2Ne-jg-fW9" secondAttribute="bottom" constant="20" id="mDc-xh-Sxm"/>
+                            <constraint firstItem="2Ne-jg-fW9" firstAttribute="leading" secondItem="xLf-qm-klO" secondAttribute="leading" constant="8" id="uJZ-UA-SFm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xLf-qm-klO"/>
                     </view>
@@ -242,7 +242,6 @@
                         <outlet property="company" destination="6wn-h2-FEU" id="o7W-90-MAw"/>
                         <outlet property="email" destination="WHm-SH-fn1" id="pXF-Sl-SJi"/>
                         <outlet property="firstName" destination="d0R-3f-mZk" id="6kW-uJ-hMY"/>
-                        <outlet property="inputViews" destination="oeb-Rf-PxN" id="ODX-KH-ppl"/>
                         <outlet property="lastName" destination="t0I-S7-cyO" id="kmR-wU-Rc9"/>
                         <outlet property="phone" destination="wuR-ZA-F29" id="00a-bi-TOk"/>
                         <outlet property="website" destination="1Jo-Xk-H38" id="jN9-zu-iHW"/>

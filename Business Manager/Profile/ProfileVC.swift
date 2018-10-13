@@ -13,7 +13,7 @@ class ProfileVC: UIViewController, UITableViewDelegate, UITableViewDataSource
 
     // MARK: - Variables
     
-    var profile = Field(profileName: "", firstName: "", lastName: "", company: "", phone: "", email: "", website: "", address: "", birthday: "", profileImage: UIImage(named: "") ?? UIImage(named: "Default Picture")!)
+    var profile = Field()
     var profileArray = [String]()
     
     // MARK: - IBOutlets
