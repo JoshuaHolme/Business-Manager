@@ -12,14 +12,40 @@ import UIKit
 class DataService {
     
     static let instance = DataService()
+    let defaults = UserDefaults.standard
     
-    private var profiles: [Field] =
-    [
-        Field(profileName: "Work", firstName: "Joshua", lastName: "Holme", company: "Holme Computer", phone: "774-644-4376", email: "JHolme@umassd.edu", website: "www.twitter.com/HolmeComputer", address: "", birthday: "", profileImage: UIImage(named: "") ?? UIImage(named: "Default Picture")!),
-        Field(profileName: "Personal", firstName: "Josh", lastName: "Holme", company: "Holme Computer", phone: "774-644-4376", email: "JoshuaHolme19@icloud.com", website: "www.twitter.com", address: "", birthday: "", profileImage: UIImage(named: "") ?? UIImage(named: "Profile Picture")!)
-    ]
+    private var mainProfile: Field? {
+        get
+        {
+            return defaults.object(forKey: "mainProfiles") as! Field?
+        }
+        set
+        {
+            defaults.set(newValue, forKey: "mainProfiles")
+        }
+    }
+    
+    private var profiles: [Field]?
+    {
+        get
+        {
+            return defaults.array(forKey: "profiles") as! [Field]?
+        }
+        set
+        {
+            defaults.set(newValue, forKey: "profiles")
+        }
+    }
     
     func getProfiles() -> [Field] {
-        return profiles
+        if profiles == nil {
+            return []
+        } else {
+            return profiles!
+        }
+    }
+    
+    func createMainProfile(profile: Field) {
+        mainProfile = profile
     }
 }
