@@ -15,6 +15,8 @@
 		691AB5962171A59300466092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691AB5942171A59300466092 /* LaunchScreen.storyboard */; };
 		691AB5A12171A59300466092 /* Business_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691AB5A02171A59300466092 /* Business_ManagerTests.swift */; };
 		691AB5AC2171A59300466092 /* Business_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691AB5AB2171A59300466092 /* Business_ManagerUITests.swift */; };
+		691AB5BB2171ACCA00466092 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691AB5BA2171ACCA00466092 /* ProfileVC.swift */; };
+		691AB5BD2171AE0D00466092 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691AB5BC2171AE0D00466092 /* Field.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		691AB5A72171A59300466092 /* Business ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Business ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		691AB5AB2171A59300466092 /* Business_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_ManagerUITests.swift; sourceTree = "<group>"; };
 		691AB5AD2171A59300466092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691AB5BA2171ACCA00466092 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		691AB5BC2171AE0D00466092 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		691AB57D2171A59200466092 = {
 			isa = PBXGroup;
 			children = (
+				691AB5BA2171ACCA00466092 /* ProfileVC.swift */,
+				691AB5BC2171AE0D00466092 /* Field.swift */,
 				691AB5882171A59200466092 /* Business Manager */,
 				691AB59F2171A59300466092 /* Business ManagerTests */,
 				691AB5AA2171A59300466092 /* Business ManagerUITests */,
@@ -260,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				691AB5BB2171ACCA00466092 /* ProfileVC.swift in Sources */,
 				691AB58E2171A59200466092 /* ViewController.swift in Sources */,
+				691AB5BD2171AE0D00466092 /* Field.swift in Sources */,
 				691AB58A2171A59200466092 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
